@@ -93,8 +93,7 @@
 
 ```bash
 # Clone the project
-git clone https://github.com/AMANPUSHP23/Newportfolio.git
-
+git clone https://github.com/AMANPUSHP23/portfolio-amanpushp.git
 # Navigate to project
 cd portfolio
 
