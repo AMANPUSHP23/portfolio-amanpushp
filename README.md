@@ -31,7 +31,7 @@
 
 > "Designing solutions for tomorrow, today."
 
-[![Visit Portfolio](https://img.shields.io/badge/Visit%20My%20Portfolio-Click%20Here-1f1f1f?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=2b2b2b)](https://amanpushp.netlify.app/)
+[![Visit Portfolio](https://img.shields.io/badge/Visit%20My%20Portfolio-Click%20Here-1f1f1f?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=2b2b2b)](https://amanpushp23.netlify.app/)
 
 ✨ Explore my personal website to see:
 - 💡 Featured Projects
@@ -39,7 +39,7 @@
 - 📄 Resume
 - 📬 Contact Info
 
-🔗 **Live Now:** [https://amanpushp.netlify.app](https://amanpushp.netlify.app)
+🔗 **Live Now:** [https://amanpushp23.netlify.app/](https://amanpushp23.netlify.app/)
 
 ![Divider](https://img.shields.io/badge/-_-1f1f1f?style=flat-square&labelColor=2b2b2b&color=2b2b2b)
 

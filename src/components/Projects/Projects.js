@@ -53,7 +53,7 @@ function Projects() {
               title="Portfolio"
               description="A responsive and interactive personal portfolio website built with React.js, Tailwind CSS, and JavaScript. Features smooth navigation, animated sections, and GitHub/LinkedIn integration for professional branding."
               ghLink="https://github.com/AMANPUSHP23/portfolio-amanpushp.git"
-              demoLink="https://amanpushp.netlify.app/"
+              demoLink="https://amanpushp23.netlify.app/"
             />
           </Col>
 

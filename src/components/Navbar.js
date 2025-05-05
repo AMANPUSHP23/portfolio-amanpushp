@@ -95,7 +95,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://amanpushp.netlify.app/"
+                href="https://amanpushp23.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >portfolio
