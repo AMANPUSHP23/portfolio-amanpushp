@@ -8,6 +8,7 @@ import portfolio from "../../Assets/Projects/portfolio.png";
 import limeroad from "../../Assets/Projects/limeroad.png";
 import foodDelight from "../../Assets/Projects/foodDelight.png";
 import careerconnect from "../../Assets/Projects/careerconnect.png";
+import routinezen from "../../Assets/Projects/routinezen.png";
 
 function Projects() {
   return (
@@ -23,6 +24,43 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
 
+
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={portfolio}
+              isBlog={false}
+              title="Portfolio"
+              description="A responsive and interactive personal portfolio website built with React.js, Tailwind CSS, and JavaScript. Features smooth navigation, animated sections, and GitHub/LinkedIn integration for professional branding."
+              ghLink="https://github.com/AMANPUSHP23/portfolio-amanpushp.git"
+              demoLink="https://amanpushp23.netlify.app/"
+            />
+          </Col>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={routinezen}
+              isBlog={false}
+              title="routinezen"
+              description="A cutting-edge, futuristic web app for tracking and managing daily routines. Built with React and a powerful tech stack, RoutineZen blends sleek design and smooth animations to deliver an immersive user experience."
+              ghLink="https://github.com/AMANPUSHP23/RoutineZen.git"
+              demoLink="https://routinezen.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={JobQuest}
+              isBlog={false}
+              title="JobQuest"
+              description="JobQuest is an advanced job-hunting platform featuring seamless user login, real-time job listings, smart filtering, and modern design—crafted using the MERN stack for a smooth, responsive, and secure experience."
+              ghLink="https://github.com/AMANPUSHP23/JobQuest.git"
+              demoLink="https://jobquesthunt.netlify.app/register"      
+            
+            />
+          </Col>
+
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={foodDelight}
@@ -30,6 +68,7 @@ function Projects() {
               title="Food Delight"
               description="A web application for exploring and ordering meals, offering a wide range of recipes from various cuisines. Built to provide a user-friendly platform for users to discover and indulge in culinary delights."
               ghLink="https://github.com/AMANPUSHP23/foodapp.git"
+            
               
             />
           </Col>
@@ -46,16 +85,7 @@ function Projects() {
           </Col>
           
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={portfolio}
-              isBlog={false}
-              title="Portfolio"
-              description="A responsive and interactive personal portfolio website built with React.js, Tailwind CSS, and JavaScript. Features smooth navigation, animated sections, and GitHub/LinkedIn integration for professional branding."
-              ghLink="https://github.com/AMANPUSHP23/portfolio-amanpushp.git"
-              demoLink="https://amanpushp23.netlify.app/"
-            />
-          </Col>
+         
 
 
 
@@ -83,17 +113,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={JobQuest}
-              isBlog={false}
-              title="JobQuest"
-              description="JobQuest is an advanced job-hunting platform featuring seamless user login, real-time job listings, smart filtering, and modern design—crafted using the MERN stack for a smooth, responsive, and secure experience."
-              ghLink="https://github.com/AMANPUSHP23/JobQuest.git"
-              demoLink="https://jobquesthunt.netlify.app/register"      
-            
-            />
-          </Col>
+          
         </Row>
       </Container>
     </Container>
