@@ -94,18 +94,14 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                href="https://amanpushp23.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-              >portfolio
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Demo
-                
-              </Nav.Link>
-            </Nav.Item>
+  <Nav.Link
+    as={Link}
+    to="/contact"
+    onClick={() => updateExpanded(false)}
+  >
+    <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }} /> Contact
+  </Nav.Link>
+</Nav.Item>
 
             <Nav.Item className="fork-btn">
               <Button
